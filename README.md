@@ -1,6 +1,6 @@
-# Project Title
+# Sage CRM .NET Templates
 
-One Paragraph of project description goes here
+This project is a Visual Studio extensions that provides a collection of project and item wizards along with snippets that are designed to make developing .NET components for _Sage CRM_ easier and quicker.
 
 ## Getting Started
 
@@ -8,11 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+This extensions requires Visual Studio 2015 or newer.
 
 ### Installing
 
@@ -32,35 +28,12 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Visual Studio 2017](https://www.visualstudio.com/vs/) - Used to do all the main development
+* [Extensibility Tools for Visual Studio](https://github.com/madskristensen/ExtensibilityTools) - Visual Studio extension ot make developing extensions easier
+* [GIMP](https://www.gimp.org/) - Graphic design software used to create all the different icons for the templates
+* [IcoFX](http://icofx.ro/) - Software used to compile all the different icons into a single .ico file
 
 ## Contributing
 
@@ -68,20 +41,18 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ivankahl/sage-crm-dot-net-templates/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Ivan Kahl** - *Initial work* - [ivankahl](https://github.com/ivankahl)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public Licence v3.0 License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-## Acknowledgments
+## Disclaimer
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+_Sage_ and _Sage CRM_ are trademarks of [Sage](http://www.sage.com/company) and are property of their owners.  This project is in no way affiliated with or endorsed by [Sage](http://www.sage.com/company).  This is purely my own project designed to make developing for _Sage CRM_ easier.
