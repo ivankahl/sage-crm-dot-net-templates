@@ -5,6 +5,7 @@
     <DisplayName>Sage CRM .NET Templates</DisplayName>
     <Description xml:space="preserve">This contains a collection of project templates, item templates and snippets that will make .NET development easier for Sage CRM.</Description>
     <License>LICENSE.txt</License>
+    <ReleaseNotes>Release Notes.txt</ReleaseNotes>
     <Icon>SageCRMDotNetTemplates.ico</Icon>
     <Tags>sage,crm,templates,sage crm</Tags>
   </Metadata>

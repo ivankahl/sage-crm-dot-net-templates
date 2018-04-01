@@ -82,6 +82,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="key.snk" />
+    <Content Include="Release Notes.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="SageCRMDotNetTemplates.ico">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

@@ -1,0 +1,5 @@
+﻿# Release Notes
+
+## Version 1.0.1
+
+Fixed bug #2 that was occurring because the VSIX had incorrect .NET dependencies. Changed it and tested it and it seems to work now.
