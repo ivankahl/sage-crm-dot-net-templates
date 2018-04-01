@@ -1,5 +1,5 @@
 ﻿# Release Notes
 
-## Version 1.0.1
+## Version 1.0.2
 
-Fixed bug #2 that was occurring because the VSIX had incorrect .NET dependencies. Changed it and tested it and it seems to work now.
+Fixed bug #3 that was occurring the wizards were referencing the incorrect assembly after it got renamed.  I have changed all of them and it seems to work now
