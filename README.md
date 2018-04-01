@@ -1,6 +1,6 @@
 # Sage CRM .NET Templates
 
-This project is a Visual Studio extensions that provides a collection of project and item wizards along with snippets that are designed to make developing .NET components for _Sage CRM_ easier and quicker.
+This project is a Visual Studio extension that provides a collection of project and item wizards along with snippets that are designed to make developing .NET components for _Sage CRM_ easier and quicker.
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Ivan Kahl** - *Initial work* - [ivankahl](https://github.com/ivankahl)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/ivankahl/sage-crm-dot-net-templates/contributors) who participated in this project.
 
 ## License
 
@@ -55,4 +55,4 @@ This project is licensed under the GNU General Public Licence v3.0 License - see
 
 ## Disclaimer
 
-_Sage_ and _Sage CRM_ are trademarks of [Sage](http://www.sage.com/company) and are property of their owners.  This project is in no way affiliated with or endorsed by [Sage](http://www.sage.com/company).  This is purely my own project designed to make developing for _Sage CRM_ easier.
+_Sage_ and _Sage CRM_, along with their respective logos, are trademarks of [Sage](http://www.sage.com/company) and are property of their owners.  This project is in no way affiliated with or endorsed by [Sage](http://www.sage.com/company).  This is purely my own project designed to make developing for _Sage CRM_ easier.
