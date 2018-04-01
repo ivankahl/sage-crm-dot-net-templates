@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Sage CRM DataPageNew Page</Name>
+    <Description>Creates a new page for Sage CRM that inherits from DataPageNew. This is usually used to create a new instance of an entity.</Description>
+    <Icon>DataPageNewItem.ico</Icon>
+    <TemplateID>e6b74abf-2f37-4fb1-beb4-b93873148cde</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>DataPageNew.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.cs">Class.cs</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>SageCRMDotNetTemplatesVSIX, Version=1.0.0.0, Culture=neutral, PublicKeyToken=355296cadd9bd1c9</Assembly>
+    <FullClassName>SageCRMDotNetTemplatesVSIX.Wizards.DataPageItemWizard.DataPageItemWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

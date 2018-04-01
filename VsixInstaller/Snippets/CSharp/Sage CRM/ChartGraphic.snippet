@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>Chart Graphic</Title>
+    <Author>Ivan Kahl</Author>
+    <Description>Code snippet for creating a chart that can be inserted into a Sage CRM page.</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>sccg</Shortcut>
+  </Header>
+  <Snippet>
+    <References>
+      <Reference>
+        <Assembly>SageCRMNet.dll</Assembly>
+      </Reference>
+    </References>
+    <Imports>
+      <Import>
+        <Namespace>Sage.CRM.Blocks</Namespace>
+      </Import>
+    </Imports>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>ObjectName</ID>
+        <ToolTip>The name of the object to store the chart in.</ToolTip>
+        <Default>chart</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[ChartGraphicBlock $ObjectName$ = new ChartGraphicBlock();
+    
+// Modify $ObjectName$ here
+    
+AddContent($ObjectName$.Execute());]]></Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>Add Help Button</Title>
+    <Author>Ivan Kahl</Author>
+    <Description>Code snippet for creating a Help Button that will provide the user with help when clicked.</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>schb</Shortcut>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>HelpURL</ID>
+        <ToolTip>The URL segment that points to the relevant help files.</ToolTip>
+        <Default>/Main Menu/wwhelp/wwhimpl/js/html/wwhelp.htm?href=GStarted18.html</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$"><![CDATA[AddHelpButton("$HelpURL$");]]></Code>
+  </Snippet>
+</CodeSnippet>

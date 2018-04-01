@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>Find Record</Title>
+    <Author>Ivan Kahl</Author>
+    <Description>Code snippet for searching for a particular instance of an entity. This done by providing a Entity Name and Where Clause.</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>scfr</Shortcut>
+  </Header>
+  <Snippet>
+    <References>
+      <Reference>
+        <Assembly>SageCRMNet.dll</Assembly>
+      </Reference>
+    </References>
+    <Imports>
+      <Import>
+        <Namespace>Sage.CRM.Data</Namespace>
+      </Import>
+    </Imports>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>RecordVariableName</ID>
+        <ToolTip>The name of the Record variable that will store the retrieved record.</ToolTip>
+        <Default>record</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>EntityName</ID>
+        <ToolTip>The name of the Entity that you are searching.</ToolTip>
+        <Default>Entity</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>WhereClause</ID>
+        <ToolTip>The WHERE clause that should be used to search for the particular record.</ToolTip>
+        <Default>WhereClause</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$"><![CDATA[Record $RecordVariableName$ = FindRecord("$EntityName$", "$WhereClause$");]]></Code>
+  </Snippet>
+</CodeSnippet>

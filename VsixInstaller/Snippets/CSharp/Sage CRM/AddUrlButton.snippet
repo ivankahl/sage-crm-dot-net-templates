@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>Add URL Button</Title>
+    <Author>Ivan Kahl</Author>
+    <Description>Code snippet for creating a URL Button that can link to any other page in Sage CRM.</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>scub</Shortcut>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>CaptionCode</ID>
+        <ToolTip>The CaptionCode to use in the button.  This will be used to get the correct caption from the Translations in Sage CRM.</ToolTip>
+        <Default>CaptionCode</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>Image</ID>
+        <ToolTip>The image to use with the button (This is supported in some themes in Sage CRM)</ToolTip>
+        <Default>Image.gif</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>DotNetFunction</ID>
+        <ToolTip>The .NET function to navigate to when the button is clicked as defined in the AppFactory class.</ToolTip>
+        <Default>FunctionName</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$"><![CDATA[AddUrlButton("$CaptionCode$", "$Image$", UrlDotNet(ThisDotNetDll, "$DotNetFunction$"));]]></Code>
+  </Snippet>
+</CodeSnippet>

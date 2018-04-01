@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>Horizontal Panel</Title>
+    <Author>Ivan Kahl</Author>
+    <Description>Code snippet for creating a Horizontal Panel element to render on a Sage CRM page.</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>schp</Shortcut>
+  </Header>
+  <Snippet>
+    <References>
+      <Reference>
+        <Assembly>SageCRMNet.dll</Assembly>
+      </Reference>
+    </References>
+    <Imports>
+      <Import>
+        <Namespace>Sage.CRM.UI</Namespace>
+      </Import>
+    </Imports>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>ObjectName</ID>
+        <ToolTip>The name of the object to store the horizontal panel in.</ToolTip>
+        <Default>horizontalPanel</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[HorizontalPanel $ObjectName$ = new HorizontalPanel();
+    
+// Modify $ObjectName$ here
+    
+AddContent($ObjectName$);]]></Code>
+  </Snippet>
+</CodeSnippet>

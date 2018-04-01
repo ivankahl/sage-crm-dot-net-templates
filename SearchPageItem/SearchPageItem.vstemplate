@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Sage CRM SearchPage Page</Name>
+    <Description>Creates a new page for Sage CRM that inherits from SearchScreen.  This is used to search for an entity in Sage CRM.</Description>
+    <Icon>SearchPageItem.ico</Icon>
+    <TemplateID>102db810-1738-4afc-bf99-aa246b9feba8</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>SearchPage.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.cs">Class.cs</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>SageCRMDotNetTemplatesVSIX, Version=1.0.0.0, Culture=neutral, PublicKeyToken=355296cadd9bd1c9</Assembly>
+    <FullClassName>SageCRMDotNetTemplatesVSIX.Wizards.SearchPageItemWizard.SearchPageItemWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

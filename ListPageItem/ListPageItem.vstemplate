@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Sage CRM ListPage Page</Name>
+    <Description>Creates a new page for Sage CRM that inherits from ListPage.  This is used to list a collection of entities on a page.</Description>
+    <Icon>ListPageItem.ico</Icon>
+    <TemplateID>34bb44aa-b7d9-417f-a6f4-fec409617a1d</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>ListPage.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.cs">Class.cs</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>SageCRMDotNetTemplatesVSIX, Version=1.0.0.0, Culture=neutral, PublicKeyToken=355296cadd9bd1c9</Assembly>
+    <FullClassName>SageCRMDotNetTemplatesVSIX.Wizards.ListPageItemWizard.ListPageItemWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

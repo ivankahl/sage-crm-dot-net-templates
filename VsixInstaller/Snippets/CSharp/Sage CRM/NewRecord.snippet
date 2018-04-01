@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>New Record</Title>
+    <Author>Ivan Kahl</Author>
+    <Description>Code snippet creating a new Record object for an Entity.</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>scnr</Shortcut>
+  </Header>
+  <Snippet>
+    <References>
+      <Reference>
+        <Assembly>SageCRMNet.dll</Assembly>
+      </Reference>
+    </References>
+    <Imports>
+      <Import>
+        <Namespace>Sage.CRM.Data</Namespace>
+      </Import>
+    </Imports>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>ObjectName</ID>
+        <ToolTip>The name of the object to store the record in.</ToolTip>
+        <Default>record</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>Entity</ID>
+        <ToolTip>The Entity you want to create a record for.</ToolTip>
+        <Default>Entity</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[Record $ObjectName$ = new Record("$Entity$");
+    
+// Modify $ObjectName$ here
+    
+$ObjectName$.SaveChanges();]]></Code>
+  </Snippet>
+</CodeSnippet>

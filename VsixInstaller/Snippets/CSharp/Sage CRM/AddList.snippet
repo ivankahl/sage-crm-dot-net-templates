@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>Add List</Title>
+    <Author>Ivan Kahl</Author>
+    <Description>Code snippet that adds a list to a page in Sage CRM.</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>scl</Shortcut>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>ObjectName</ID>
+        <ToolTip>The name of the object that will store the field value.</ToolTip>
+        <Default>list</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>ListName</ID>
+        <ToolTip>The name of the list that you want to render.</ToolTip>
+        <Default>EntityList</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[List $ObjectName$ = new List("$ListName$");
+      
+// Modify $ObjectName$ here
+
+AddContent($ObjectName$.ToHtml());]]></Code>
+  </Snippet>
+</CodeSnippet>

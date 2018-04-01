@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Sage CRM Entity Project</Name>
+    <Description>Project to create a .NET library with all the pages required for manipulating a specified entity in Sage CRM.</Description>
+    <Icon>EntityProject.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>06ae2273-bb04-4b58-b9c4-4183c9366fd0</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EntityProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <Folder Name="Entity" TargetFolderName="$entityname$">
+        <ProjectItem ReplaceParameters="true" TargetFileName="$entityname$ListPage.cs">EntityListPage.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="$entityname$DataPage.cs">EntityDataPage.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="$entityname$DataPageDelete.cs">EntityDataPageDelete.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="$entityname$DataPageEdit.cs">EntityDataPageEdit.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="$entityname$SearchPage.cs">EntitySearchPage.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="$entityname$DataPageNew.cs">EntityDataPageNew.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Base.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>SageCRMDotNetTemplatesVSIX, Version=1.0.0.0, Culture=neutral, PublicKeyToken=355296cadd9bd1c9</Assembly>
+    <FullClassName>SageCRMDotNetTemplatesVSIX.Wizards.EntityProjectWizard.EntityProjectWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

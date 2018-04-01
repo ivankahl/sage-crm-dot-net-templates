@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>Add HTML Grid</Title>
+    <Author>Ivan Kahl</Author>
+    <Description>Code snippet for creating an HTML Grid in Sage CRM.</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>schg</Shortcut>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>GridTitle</ID>
+        <ToolTip>The title you want to display at the top of the HTML Grid.</ToolTip>
+        <Default>Entities</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>ColumnOneHeader</ID>
+        <ToolTip>The header for the first column in the HTML Grid.</ToolTip>
+        <Default>Metadata.GetTranslation("colnames", "headerOne")</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>ColumnTwoHeader</ID>
+        <ToolTip>The header for the second column in the HTML Grid.</ToolTip>
+        <Default>Metadata.GetTranslation("colnames", "headerTwo")</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>ColumnOneField</ID>
+        <ToolTip>The contents of the first column in the first row</ToolTip>
+        <Default>headerOne</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>ColumnTwoField</ID>
+        <ToolTip>The title you want to display at the top of the HTML Grid.</ToolTip>
+        <Default>headerTwo</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[AddContent(HTML.GridStart("$GridTitle$");
+      
+AddContent(HTML.GridHeader($ColumnOneHeader$));
+AddContent(HTML.GridHeader($ColumnTwoHeader$));
+
+AddContent("</tr><tr>");
+
+// Loop through QuerySelect
+while (!query.Eof())
+{
+    AddContent(HTML.GridData(query.FieldValue("$ColumnOneField$")));
+    AddContent(HTML.GridData(query.FieldValue("$ColumnTwoField$")));
+    AddContent("</tr><tr>");
+    
+    query.Next();
+}
+    
+AddContent(HTML.GridEnd());]]></Code>
+  </Snippet>
+</CodeSnippet>

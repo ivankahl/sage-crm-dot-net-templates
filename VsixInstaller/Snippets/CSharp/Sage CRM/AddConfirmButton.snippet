@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>Add Confirm Button</Title>
+    <Author>Ivan Kahl</Author>
+    <Description>Code snippet for creating a Confirm Button that can be used to confirm an action with the user.</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>sccb</Shortcut>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>CaptionCode</ID>
+        <ToolTip>The CaptionCode to use in the button. This will be used to get the correct caption from the Translations in Sage CRM.</ToolTip>
+        <Default>CaptionCode</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>Image</ID>
+        <ToolTip>The image to use with the button (This is supported in some themes in Sage CRM)</ToolTip>
+        <Default>Image.gif</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>Question</ID>
+        <ToolTip>The question that should be shown to the user when confirming the action.</ToolTip>
+        <Default>Question</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>FieldName</ID>
+        <ToolTip>The name of the field in the HTML Form that you want to change the value of when the button is clicked (Optionally)</ToolTip>
+        <Default>hMode</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>FieldValue</ID>
+        <ToolTip>The value you want to set the specified field to when the button is clicked (Optionally)</ToolTip>
+        <Default>Saved</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$"><![CDATA[AddConfirmButton("$CaptionCode$", "$Image$", "$Question$", "$FieldName$", "$FieldValue$");]]></Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>Get Context Info</Title>
+    <Author>Ivan Kahl</Author>
+    <Description>Code snippet getting a particular field of a particular entity that is currrently in context.</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>scgci</Shortcut>
+  </Header>
+  <Snippet>
+    <References>
+      <Reference>
+        <Assembly>SageCRMNet.dll</Assembly>
+      </Reference>
+    </References>
+    <Imports>
+      <Import>
+        <Namespace>Sage.CRM.Data</Namespace>
+      </Import>
+    </Imports>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>$ObjectName$</ID>
+        <ToolTip>The name of the string object.</ToolTip>
+        <Default>contextualInfo</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>Entity</ID>
+        <ToolTip>The name of the Entity that you are searching.</ToolTip>
+        <Default>Entity</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>FieldName</ID>
+        <ToolTip>The field you want to retrieve.</ToolTip>
+        <Default>Enti_EntityId</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$"><![CDATA[string $ObjectName$ = GetContextInfo("$Entity$", "$FieldName$");]]></Code>
+  </Snippet>
+</CodeSnippet>
