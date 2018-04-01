@@ -3,31 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityProject", "EntityProject\EntityProject.csproj", "{7DBC51E5-B437-468A-9C09-EE8B3D0ADF41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityProject", "Project Templates\EntityProject\EntityProject.csproj", "{7DBC51E5-B437-468A-9C09-EE8B3D0ADF41}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTemplates", "ProjectTemplates", "{ED79BBA1-F328-487E-82E2-458266E89535}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageCRMDotNetTemplatesVSIX", "VsixInstaller\SageCRMDotNetTemplatesVSIX.csproj", "{3BCEB322-B57C-44E9-A95C-DA86D9940484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProject", "SimpleProject\SimpleProject.csproj", "{8BE81C82-1B6B-49D5-AF39-90AD102D07B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProject", "Project Templates\SimpleProject\SimpleProject.csproj", "{8BE81C82-1B6B-49D5-AF39-90AD102D07B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItemTemplates", "ItemTemplates", "{E63AC942-09A2-4D43-BD39-F18A84FC7D48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPageEditItem", "DataPageEditPageItem\DataPageEditItem.csproj", "{999D55E3-CC5B-4AA6-8C76-83E304A49523}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPageEditItem", "Item Templates\DataPageEditPageItem\DataPageEditItem.csproj", "{999D55E3-CC5B-4AA6-8C76-83E304A49523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPageNewItem", "DataPageNewPageItem\DataPageNewItem.csproj", "{644E6485-B44C-423E-9F04-E805953510E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPageNewItem", "Item Templates\DataPageNewPageItem\DataPageNewItem.csproj", "{644E6485-B44C-423E-9F04-E805953510E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPageDeleteItem", "DataPageDeletePageItem\DataPageDeleteItem.csproj", "{ACC46AD3-2894-41CA-A831-71F4AC0C205F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPageDeleteItem", "Item Templates\DataPageDeletePageItem\DataPageDeleteItem.csproj", "{ACC46AD3-2894-41CA-A831-71F4AC0C205F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPageItem", "DataPagePageItem\DataPageItem.csproj", "{EDA44AC4-4504-4E30-8754-194FA5AAFD73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPageItem", "Item Templates\DataPagePageItem\DataPageItem.csproj", "{EDA44AC4-4504-4E30-8754-194FA5AAFD73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPageItem", "ListPageItem\ListPageItem.csproj", "{BB81D7CE-1139-4B66-B25E-B7E45524C55D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPageItem", "Item Templates\ListPageItem\ListPageItem.csproj", "{BB81D7CE-1139-4B66-B25E-B7E45524C55D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebItem", "WebItem\WebItem.csproj", "{22B41A15-62A3-4E3D-97DB-52992D111973}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebItem", "Item Templates\WebItem\WebItem.csproj", "{22B41A15-62A3-4E3D-97DB-52992D111973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPageItem", "SearchPageItem\SearchPageItem.csproj", "{C571619B-3449-4168-BD28-D4D893AF00D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchPageItem", "Item Templates\SearchPageItem\SearchPageItem.csproj", "{C571619B-3449-4168-BD28-D4D893AF00D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppFactoryItem", "AppFactoryItem\AppFactoryItem.csproj", "{C1255C7B-A072-43E0-A9A2-0F9E58108FC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppFactoryItem", "Item Templates\AppFactoryItem\AppFactoryItem.csproj", "{C1255C7B-A072-43E0-A9A2-0F9E58108FC0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5F176A3-0375-4922-A127-B160CDA9D0F0}"
 	ProjectSection(SolutionItems) = preProject

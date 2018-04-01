@@ -149,70 +149,70 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AppFactoryItem\AppFactoryItem.csproj">
+    <ProjectReference Include="..\Item Templates\AppFactoryItem\AppFactoryItem.csproj">
       <Project>{C1255C7B-A072-43E0-A9A2-0F9E58108FC0}</Project>
       <Name>AppFactoryItem</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\DataPageDeletePageItem\DataPageDeleteItem.csproj">
+    <ProjectReference Include="..\Item Templates\DataPageDeletePageItem\DataPageDeleteItem.csproj">
       <Project>{ACC46AD3-2894-41CA-A831-71F4AC0C205F}</Project>
       <Name>DataPageDeleteItem</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\DataPageEditPageItem\DataPageEditItem.csproj">
+    <ProjectReference Include="..\Item Templates\DataPageEditPageItem\DataPageEditItem.csproj">
       <Project>{999D55E3-CC5B-4AA6-8C76-83E304A49523}</Project>
       <Name>DataPageEditItem</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\DataPageNewPageItem\DataPageNewItem.csproj">
+    <ProjectReference Include="..\Item Templates\DataPageNewPageItem\DataPageNewItem.csproj">
       <Project>{644E6485-B44C-423E-9F04-E805953510E9}</Project>
       <Name>DataPageNewItem</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\DataPagePageItem\DataPageItem.csproj">
+    <ProjectReference Include="..\Item Templates\DataPagePageItem\DataPageItem.csproj">
       <Project>{EDA44AC4-4504-4E30-8754-194FA5AAFD73}</Project>
       <Name>DataPageItem</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\EntityProject\EntityProject.csproj">
+    <ProjectReference Include="..\Project Templates\EntityProject\EntityProject.csproj">
       <Project>{7DBC51E5-B437-468A-9C09-EE8B3D0ADF41}</Project>
       <Name>EntityProject</Name>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\ListPageItem\ListPageItem.csproj">
+    <ProjectReference Include="..\Item Templates\ListPageItem\ListPageItem.csproj">
       <Project>{BB81D7CE-1139-4B66-B25E-B7E45524C55D}</Project>
       <Name>ListPageItem</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\SearchPageItem\SearchPageItem.csproj">
+    <ProjectReference Include="..\Item Templates\SearchPageItem\SearchPageItem.csproj">
       <Project>{C571619B-3449-4168-BD28-D4D893AF00D1}</Project>
       <Name>SearchPageItem</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\SimpleProject\SimpleProject.csproj">
+    <ProjectReference Include="..\Project Templates\SimpleProject\SimpleProject.csproj">
       <Project>{8BE81C82-1B6B-49D5-AF39-90AD102D07B5}</Project>
       <Name>SimpleProject</Name>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\WebItem\WebItem.csproj">
+    <ProjectReference Include="..\Item Templates\WebItem\WebItem.csproj">
       <Project>{22B41A15-62A3-4E3D-97DB-52992D111973}</Project>
       <Name>WebItem</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
