@@ -20,7 +20,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SageCRMDotNetTemplatesVSIX</RootNamespace>
-    <AssemblyName>Sage CRM .NET Templates</AssemblyName>
+    <AssemblyName>SageCrmDotNetTemplates</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>
