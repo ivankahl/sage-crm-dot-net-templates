@@ -12,25 +12,27 @@ This extensions requires Visual Studio 2015 or newer.
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+#### Installing from within Visual Studio (recommended)
 
-Say what the step will be
+1. Open Visual Studio and go to **Tools -> Extensions and Updates...**
+2. Select **Online** in the left and search for _Sage CRM .NET Templates_
+3. Install the _Sage CRM .NET Templates_ by _Ivan Kahl_
+4. Restart Visual Studio
 
-```
-Give the example
-```
+Your new project templates should appear in the _Sage CRM_ category when creating a new project in Visual Studio.
 
-And repeat
+#### Downloading the package and then installing it
 
-```
-until finished
-```
+1. Browse to [Sage CRM .NET Templates](https://marketplace.visualstudio.com/items?itemName=ivankahl.sage-crm-dot-net-templates) in the Visual Studio Marketplace and **Download** the extension.
+2. Close all instances of Visual Studio that are running.
+3. Open the VSIX file that was downloaded and follow the prompts.
+4. When it's finished, you can start Visual Studio.
 
-End with an example of getting some data out of the system or using it for a little demo
+Your new project templates should appear in the _Sage CRM_ category when creating a new project in Visual Studio.
 
 ## Building
 
-In order to build the VSIX package, open the solution in Visual Studio 2017 and build the _VSIXInstaller_ project.
+In order to build the VSIX package, open the solution in Visual Studio 2017 and build the _SageCRMDotNetTemplatesVSIX_ project.
 
 ## Built With
 

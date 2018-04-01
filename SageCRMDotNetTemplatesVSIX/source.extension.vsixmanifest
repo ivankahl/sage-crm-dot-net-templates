@@ -3,7 +3,7 @@
   <Metadata>
     <Identity Id="SageCrmDotNetTemplates.3c68dbfd-dbd6-42fc-a8cc-af7bed1204a2" Version="1.0" Language="en-US" Publisher="Ivan Kahl" />
     <DisplayName>Sage CRM .NET Templates</DisplayName>
-    <Description xml:space="preserve">This contains a collection of user project templates, item templates and snippets that will make .NET development easier for Sage CRM.</Description>
+    <Description xml:space="preserve">This contains a collection of project templates, item templates and snippets that will make .NET development easier for Sage CRM.</Description>
     <License>LICENSE.txt</License>
     <Icon>SageCRMDotNetTemplates.ico</Icon>
     <Tags>sage,crm,templates,sage crm</Tags>
