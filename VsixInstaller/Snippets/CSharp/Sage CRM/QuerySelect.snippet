@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>Query Select</Title>
+    <Author>Ivan Kahl</Author>
+    <Description>Code snippet for getting a QuerySelect object in a Sage CRM page.</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>scqs</Shortcut>
+  </Header>
+  <Snippet>
+    <References>
+      <Reference>
+        <Assembly>SageCRMNet.dll</Assembly>
+      </Reference>
+    </References>
+    <Imports>
+      <Import>
+        <Namespace>Sage.CRM.Data</Namespace>
+      </Import>
+    </Imports>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>ObjectName</ID>
+        <ToolTip>The name of the object to store the QuerySelect in.</ToolTip>
+        <Default>record</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>SQLCommand</ID>
+        <ToolTip>The SQL command you want to execute using the QuerySelect.</ToolTip>
+        <Default>SELECT NULL;</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[QuerySelect $ObjectName$ = GetQuery();
+    
+$ObjectName$.SQLCommand = "$SQLCommand$";
+
+// $ObjectName$.ExecuteNonQuery();
+// $ObjectName$.ExecuteReader();
+
+$ObjectName$.Close();]]></Code>
+  </Snippet>
+</CodeSnippet>

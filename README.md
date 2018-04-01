@@ -4,7 +4,7 @@ This project is a Visual Studio extension that provides a collection of project 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This will take you through installing the extension in Visual Studio 2015+ so that you can start using it immediately.
 
 ### Prerequisites
 
@@ -27,6 +27,10 @@ until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
+
+## Building
+
+In order to build the VSIX package, open the solution in Visual Studio 2017 and build the _VSIXInstaller_ project.
 
 ## Built With
 

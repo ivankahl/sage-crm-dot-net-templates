@@ -9,24 +9,20 @@
     <Description>Code snippet for creating an Entry Group that can be rendered on a Sage CRM page.</Description>
     <HelpUrl>
     </HelpUrl>
-    <Shortcut>scgci</Shortcut>
+    <Shortcut>sceg</Shortcut>
   </Header>
   <Snippet>
+    <References>
+      <Reference>
+        <Assembly>SageCRMNet.dll</Assembly>
+      </Reference>
+    </References>
+    <Imports>
+      <Import>
+        <Namespace>Sage.CRM.Data</Namespace>
+      </Import>
+    </Imports>
     <Declarations>
-      <Literal Editable="true">
-        <ID>Entity</ID>
-        <ToolTip>The entity you want to get contextual information about.</ToolTip>
-        <Default>Entity</Default>
-        <Function>
-        </Function>
-      </Literal>
-      <Literal Editable="true">
-        <ID>FieldName</ID>
-        <ToolTip>The field you want to retrieve for the current entity in context.</ToolTip>
-        <Default>Enti_EntityId</Default>
-        <Function>
-        </Function>
-      </Literal>
       <Literal Editable="true">
         <ID>ObjectName</ID>
         <ToolTip>The name of the object that will store the field value.</ToolTip>
@@ -34,8 +30,33 @@
         <Function>
         </Function>
       </Literal>
+      <Literal Editable="true">
+        <ID>EntryGroupName</ID>
+        <ToolTip>The name of the entry group you want to retrieve.</ToolTip>
+        <Default>EntryGroup</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>Title</ID>
+        <ToolTip>The title to use for the Entry Group.</ToolTip>
+        <Default>Title</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>Record</ID>
+        <ToolTip>The record to display in view mode.</ToolTip>
+        <Default>entityRecord</Default>
+        <Function>
+        </Function>
+      </Literal>
     </Declarations>
     <Code Language="csharp" Delimiter="$">
-      <![CDATA[]]></Code>
+      <![CDATA[EntryGroup $ObjectName$ = new EntryGroup("$EntryGroupName$");
+$ObjectName$.Title = "$Title$";
+
+// AddContent($ObjectName$.GetHtmlInViewMode($Record$));
+// AddContent($ObjectName$.GetHtmlInEditMode());]]></Code>
   </Snippet>
 </CodeSnippet>

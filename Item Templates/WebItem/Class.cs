@@ -11,11 +11,11 @@ namespace $rootnamespace$
         public $safeitemname$()
         {
 
-        }$if$ ($overridebuildcontents$ == true)
-    
+        }
+
         public override void BuildContents()
         {
             base.BuildContents();
-        }$endif$
+        }
 	}
 }

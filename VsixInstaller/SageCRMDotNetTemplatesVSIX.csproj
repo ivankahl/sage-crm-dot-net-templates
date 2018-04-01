@@ -79,13 +79,6 @@
       <DependentUpon>SearchPageItemForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Wizards\SearchPageItemWizard\SearchPageItemWizard.cs" />
-    <Compile Include="Wizards\WebPageItemWizard\WebPageItemForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Wizards\WebPageItemWizard\WebPageItemForm.Designer.cs">
-      <DependentUpon>WebPageItemForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Wizards\WebPageItemWizard\WebPageItemWizard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="key.snk" />
@@ -95,48 +88,67 @@
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\BuildContentsMethod.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\FindRecord.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\AddUrlButton.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\AddConfirmButton.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\AddSubmitButton.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\AddHelpButton.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\ChartGraphic.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\EntryGroup.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\NewRecord.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\GetContextInfo.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\AddGraphicBlock.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\HorizontalPanel.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\VerticalPanel.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\AddHTMLGrid.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\AddList.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\CSharp\Sage CRM\QuerySelect.snippet">
+      <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
@@ -243,9 +255,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Wizards\SearchPageItemWizard\SearchPageItemForm.resx">
       <DependentUpon>SearchPageItemForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Wizards\WebPageItemWizard\WebPageItemForm.resx">
-      <DependentUpon>WebPageItemForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
