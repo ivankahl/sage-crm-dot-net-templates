@@ -100,19 +100,19 @@
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\CSharp\Sage CRM\AddUrlButton.snippet">
+    <Content Include="Snippets\CSharp\Sage CRM\UrlButton.snippet">
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\CSharp\Sage CRM\AddConfirmButton.snippet">
+    <Content Include="Snippets\CSharp\Sage CRM\ConfirmButton.snippet">
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\CSharp\Sage CRM\AddSubmitButton.snippet">
+    <Content Include="Snippets\CSharp\Sage CRM\SubmitButton.snippet">
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\CSharp\Sage CRM\AddHelpButton.snippet">
+    <Content Include="Snippets\CSharp\Sage CRM\HelpButton.snippet">
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -132,7 +132,7 @@
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\CSharp\Sage CRM\AddGraphicBlock.snippet">
+    <Content Include="Snippets\CSharp\Sage CRM\GraphicBlock.snippet">
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -144,11 +144,11 @@
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\CSharp\Sage CRM\AddHTMLGrid.snippet">
+    <Content Include="Snippets\CSharp\Sage CRM\HTMLGrid.snippet">
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\CSharp\Sage CRM\AddList.snippet">
+    <Content Include="Snippets\CSharp\Sage CRM\List.snippet">
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
