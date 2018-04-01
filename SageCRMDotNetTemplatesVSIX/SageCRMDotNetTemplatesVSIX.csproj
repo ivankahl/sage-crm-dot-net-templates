@@ -83,11 +83,9 @@
   <ItemGroup>
     <None Include="key.snk" />
     <Content Include="SageCRMDotNetTemplates.ico">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="LICENSE.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Snippets\CSharp\Sage CRM\AppFactoryMethod.snippet">
