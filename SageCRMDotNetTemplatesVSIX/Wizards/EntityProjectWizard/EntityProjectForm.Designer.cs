@@ -102,7 +102,7 @@
             this.groupBox2.Location = new System.Drawing.Point(12, 126);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(344, 64);
-            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Lists";
             // 
@@ -111,7 +111,7 @@
             this.txtListName.Location = new System.Drawing.Point(9, 32);
             this.txtListName.Name = "txtListName";
             this.txtListName.Size = new System.Drawing.Size(329, 20);
-            this.txtListName.TabIndex = 3;
+            this.txtListName.TabIndex = 4;
             // 
             // label4
             // 
@@ -133,7 +133,7 @@
             this.groupBox3.Location = new System.Drawing.Point(12, 196);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(344, 152);
-            this.groupBox3.TabIndex = 4;
+            this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Screens";
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
@@ -143,7 +143,7 @@
             this.txtFilterBoxScreen.Location = new System.Drawing.Point(9, 119);
             this.txtFilterBoxScreen.Name = "txtFilterBoxScreen";
             this.txtFilterBoxScreen.Size = new System.Drawing.Size(329, 20);
-            this.txtFilterBoxScreen.TabIndex = 6;
+            this.txtFilterBoxScreen.TabIndex = 8;
             // 
             // label6
             // 
@@ -159,7 +159,7 @@
             this.txtSearchScreen.Location = new System.Drawing.Point(9, 75);
             this.txtSearchScreen.Name = "txtSearchScreen";
             this.txtSearchScreen.Size = new System.Drawing.Size(329, 20);
-            this.txtSearchScreen.TabIndex = 5;
+            this.txtSearchScreen.TabIndex = 7;
             // 
             // label3
             // 
@@ -175,7 +175,7 @@
             this.txtDetailScreen.Location = new System.Drawing.Point(9, 32);
             this.txtDetailScreen.Name = "txtDetailScreen";
             this.txtDetailScreen.Size = new System.Drawing.Size(329, 20);
-            this.txtDetailScreen.TabIndex = 4;
+            this.txtDetailScreen.TabIndex = 6;
             // 
             // label5
             // 
@@ -191,7 +191,7 @@
             this.btnCreate.Location = new System.Drawing.Point(281, 354);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(75, 23);
-            this.btnCreate.TabIndex = 7;
+            this.btnCreate.TabIndex = 9;
             this.btnCreate.Text = "&Create";
             this.btnCreate.UseVisualStyleBackColor = true;
             this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);

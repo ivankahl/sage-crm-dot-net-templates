@@ -20,7 +20,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SageCRMDotNetTemplatesVSIX</RootNamespace>
-    <AssemblyName>SageCRMDotNetTemplatesVSIX</AssemblyName>
+    <AssemblyName>Sage CRM .NET Templates</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>
@@ -82,6 +82,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="key.snk" />
+    <Content Include="SageCRMDotNetTemplates.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="LICENSE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Snippets\CSharp\Sage CRM\AppFactoryMethod.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
       <SubType>Designer</SubType>
@@ -157,7 +165,6 @@
   <ItemGroup>
     <Content Include="snippets.pkgdef">
       <IncludeInVSIX>true</IncludeInVSIX>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
