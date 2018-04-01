@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityProject", "Project Te
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTemplates", "ProjectTemplates", "{ED79BBA1-F328-487E-82E2-458266E89535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageCRMDotNetTemplatesVSIX", "VsixInstaller\SageCRMDotNetTemplatesVSIX.csproj", "{3BCEB322-B57C-44E9-A95C-DA86D9940484}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SageCRMDotNetTemplatesVSIX", "SageCRMDotNetTemplatesVSIX\SageCRMDotNetTemplatesVSIX.csproj", "{3BCEB322-B57C-44E9-A95C-DA86D9940484}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProject", "Project Templates\SimpleProject\SimpleProject.csproj", "{8BE81C82-1B6B-49D5-AF39-90AD102D07B5}"
 EndProject
