@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-$if$ ($targetframeworkversion$ >= 3.5)using System.Linq;
-$endif$using System.Text;
-using Sage.CRM.WebObject;
+﻿using Sage.CRM.WebObject;
 using $safeprojectname$.$entityname$;
 
 namespace $safeprojectname$
