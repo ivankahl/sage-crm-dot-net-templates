@@ -9,32 +9,32 @@ namespace $safeprojectname$
 {
 	public static class AppFactory
     {
-        public static void $entityname$DataPage(ref Web AretVal)
+        public static void RunDataPage(ref Web AretVal)
         {
             AretVal = new $entityname$DataPage();
         }
 
-        public static void $entityname$DataPageDelete(ref Web AretVal)
+        public static void RunDataPageDelete(ref Web AretVal)
         {
             AretVal = new $entityname$DataPageDelete();
         }
 
-        public static void $entityname$DataPageEdit(ref Web AretVal)
+        public static void RunDataPageEdit(ref Web AretVal)
         {
             AretVal = new $entityname$DataPageEdit();
         }
 
-        public static void $entityname$DataPageNew(ref Web AretVal)
+        public static void RunDataPageNew(ref Web AretVal)
         {
             AretVal = new $entityname$DataPageNew();
         }
 
-        public static void $entityname$ListPage(ref Web AretVal)
+        public static void RunListPage(ref Web AretVal)
         {
             AretVal = new $entityname$ListPage();
         }
 
-        public static void $entityname$SearchPage(ref Web AretVal)
+        public static void RunSearchPage(ref Web AretVal)
         {
             AretVal = new $entityname$SearchPage();
         }
