@@ -15,7 +15,7 @@ namespace $rootnamespace$
 
         public override void BuildContents()
         {
-            base.BuildContents();
+            
         }
 	}
 }
